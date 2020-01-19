@@ -1,0 +1,65 @@
+body{
+
+    background-image: url(bg.png);
+    
+    font-family: 'Lato', arial, sans-serif;
+    color: #444;
+    
+}
+.Header{
+
+     vertical-align: middle;
+    
+    flex-wrap: wrap;
+    position: fixed;
+    display: flex;
+    flex:1; 
+    justify-content:flex-start ;
+  align-items: center;
+
+    /*justify-content:stretch;*/
+    background-color: white;
+   
+   margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+ nav >div >img{
+    height: 50px;
+    margin-right: 5px;
+    vertical-align: middle;
+} 
+
+
+.Logo
+{
+  display: flex;
+  flex:1;
+  
+  justify-content:flex-end ;
+  align-items: center;
+
+  font-style: bold;
+  font-size: 28px;
+  margin: 5px;
+ 
+}
+
+
+
+.List{
+    
+    
+    font-size: 14px;
+    
+    list-style: none;
+    display: flex;
+    flex:1;justify-content:flex-end;
+    align-items: flex-end;
+
+  }
+  .list-item{
+    margin-right: 40px;
+    
+  }
