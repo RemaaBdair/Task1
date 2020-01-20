@@ -1,32 +1,20 @@
 body{
 
     background-image: url(bg.png);
-    
-    font-family: 'Lato', arial, sans-serif;
+    font-family: 'Lato',sans-serif;
     color: #444;
     
 }
 .Header{
-
-     vertical-align: middle;
-    
-    flex-wrap: wrap;
-    position: fixed;
-    display: flex;
-    flex:1; 
-    justify-content:flex-start ;
-  align-items: center;
-
-    /*justify-content:stretch;*/
-    background-color: white;
-   
-   margin-left: 50px;
-    margin-right: 50px;
-   
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  
 }
-
- nav >div >img{
-    height: 50px;
+ header >div >img{
+    height: auto;
     margin-right: 5px;
     vertical-align: middle;
 } 
@@ -34,32 +22,31 @@ body{
 
 .Logo
 {
-  display: flex;
-  flex:1;
   
-  justify-content:flex-end ;
+  display: flex;
+  vertical-align: middle;
+  justify-content:flex-start ;
   align-items: center;
-
-  font-style: bold;
-  font-size: 28px;
-  margin: 5px;
- 
+  flex-wrap: wrap;
 }
-
-
 
 .List{
     
     
     font-size: 14px;
-    
+    text-align: center;
     list-style: none;
-    display: flex;
-    flex:1;justify-content:flex-end;
-    align-items: flex-end;
-
+   
   }
   .list-item{
+    display: inline;
     margin-right: 40px;
-    
   }
+  .Logo-name{
+    vertical-align: middle;
+    font-size: 28px;
+  }
+
+
+
+  
