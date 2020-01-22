@@ -1,116 +1,56 @@
+body{
 
-
-
-
-  /***********Contact us******/
-  body{
-
-    background-image: url(bg.png);
-      font-family: 'Lato',sans-serif;
-      
-      
-  }
-
-  .contact-container{
-    width: 100%;
-    color: #fff;
-    background-color: #56bc94;
-    background-image: url(bg.png);
-    align-items: center;
-    border: 1px solid blue;
-    text-align: center;
-    display: block;
-    margin:0 auto;
-    padding: 50px;
-    font-style: normal;
-
+  background-image: url(bg.png);
+    font-family: 'Lato',sans-serif;
+    color: #444;
+    background-color: rgb(243, 242, 242);
     
-  }
-  .contact-title{
-    text-align: center;
-    margin-top: 20px;
     
-  }
-  .contact-info{
-    text-align: center;
-    
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex: 1;
-    position: relative;
-    flex-direction: column;
-    padding:0 10px;
-  }
+}
 
-  .contatc-info-p{
-    width:600px;
-  display: inline-block;
-  color: white;
-  margin: 10px;
-  }
+.Header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-left: -10px;
+  padding: 10px;
+  width: 100%;
+  z-index: 100;
+  position:fixed;
+  top: 0;
   
-  .contact-info-i{
-    
-    margin: 10px;
-    color: #317b5e;
-  }
-
-  
-  .fa-phone-square, .fa-envelope{
-    color: #317b5e;
-    font-size: 16px;
-    font-family: 'FontAwesome';
-    font-style: inherit;
-    padding: 5px;
-  }
-  .fa-phone-square{
-    content: "\f098";
-  }
-  .fa-envelope{
-    content: "\f0e0";
-  
-  }
-
-  .contact-form{
- 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width:100%;
-    margin:  auto;
-    
-  }
-  .contact-form >label{
-   
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    
   
 }
-  
-.contact-form >input, .contact-form>textarea{
-    font-size: 16px;
-    margin: 10px 0px;
+ header >div >img{
     height: auto;
-    padding: 15px 15px;
-    display: block;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-    border-radius: 4px;
-    width: 540px;
-  }
+    margin-right: 5px;
+    vertical-align: middle;
+ }
+.Logo
+{
+  
+  display: flex;
+  vertical-align: middle;
+  justify-content:flex-start ;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .send-message{
-    background-color: #317b5e;
-    margin-top: 15px;
-    padding: 10px 15px;
-    font-size: 18px;
-    color: white;
-    border-radius: 4px;
-    border: 1px solid  #317b5e;;
+.List{
+    
+    
+    font-size: 14px;
+    text-align: center;
+    list-style: none;
+   
+  }
+  .list-item{
+    display: inline;
+    margin-right: 40px;
+  }
+  .Logo-name{
+    vertical-align: middle;
+    font-size: 28px;
   }
