@@ -42,3 +42,10 @@ body {
   margin-right: 40px;
 }
 
+.header__list_link{
+  color: #444;
+  text-decoration: none;
+}
+.header__list_link:hover ,.header__list_link:active{
+  color: #56bc94;
+}
