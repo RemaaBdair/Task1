@@ -50,7 +50,6 @@ vertical-align: middle;
 }
 
 .card-title{
-
   color:#225742;
   background-color: #c4e7d9;
   padding: 30px 90px 70px 90px;
@@ -62,10 +61,13 @@ vertical-align: middle;
   
 }
 
-#center-card {
-padding-top: 50px  ;
+.center-card {
+padding-bottom: 10px  ;
 }
 
+#center-card{
+  padding-top: 50px;
+}
 .price-circle{
 height: 115px;
 width: 115px;
