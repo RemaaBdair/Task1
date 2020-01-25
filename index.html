@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="index.css" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Delta</title>
     <link
       href="http://fonts.googleapis.com/css?family=Lato:400,700"
@@ -16,7 +17,7 @@
         <img class="header__logo-image" src="logo.png" alt="Logo name" />
         <span class="header__logo-name">DELTA</span>
       </div>
-     
+
       <input class="header__menu-btn" type="checkbox" id="menu-btn" />
       <label class="header__menu-label" for="menu-btn">
         <span class="header__menu-icon"></span>
@@ -42,103 +43,116 @@
         </li>
       </ul>
     </header>
-    <div class='cards-container'>
-    <span class='cards-container__title'>
- Choose your plan today
-    </span>
-     <div class='cards'>
-     <div class='card'>
-        <p class='card__title'>Personal</p>
-        <div class='card__price-circle'>
-            <span class='card__dollar'>$</span>
-            <span class='card__price'>5</span>
-            <br>
+    <div class="cards-container">
+      <span class="cards-container__title">
+        Choose your plan today
+      </span>
+      <div class="cards">
+        <div class="card">
+          <p class="card__title">Personal</p>
+          <div class="card__price-circle">
+            <span class="card__dollar">$</span>
+            <span class="card__price">5</span>
+            <br />
             <span>per month</span>
+          </div>
+          <div class="card__content">
+            <p class="text-enabled"><i class="fas fa-check"></i>1 user</p>
+            <p class="text-enabled"><i class="fas fa-check"></i>10GB storage</p>
+            <p class="text-disabled">
+              <i class="far fa-times"></i>Email priority support
+              hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+            </p>
+            <p class="text-disabled"><i class="far fa-times"></i>Free update</p>
+            <p class="text-disabled">
+              <i class="far fa-times"></i>24/7 support
+            </p>
+            <button class="card__button">Sign Up</button>
+          </div>
         </div>
-     <div class='card__content'>
-        <p class='text-enabled' ><i class="fas fa-check"></i>1 user</p>
-        <p class='text-enabled'><i class="fas fa-check"></i>10GB storage</p>
-        <p class='text-disabled'><i class="far fa-times"></i>Email priority support hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p class='text-disabled'><i class="far fa-times"></i>Free update</p>
-        <p class='text-disabled'><i class="far fa-times"></i>24/7 support</p>
-        <button class='card__button'>Sign Up</button>
+
+        <div class="card card--center">
+          <div class="ribbon"><span>POPULAR</span></div>
+          <p class="card__title card__title--center">Professional</p>
+          <div class="card__price-circle">
+            <span class="card__dollar">$</span>
+            <span class="card__price">10</span>
+            <br />
+            <span>per month</span>
+          </div>
+          <div class="card__content">
+            <p class="text-enabled"><i class="fas fa-check"></i>1 user</p>
+            <p class="text-enabled"><i class="fas fa-check"></i>10GB storage</p>
+            <p class="text-enabled">
+              <i class="fas fa-check"></i>Email priority support
+            </p>
+            <p class="text-enabled"><i class="fas fa-check"></i>Free update</p>
+            <p class="text-enabled"><i class="fas fa-check"></i>24/7 support</p>
+            <button class="card__button">Sign Up</button>
+          </div>
         </div>
+        <div class="card">
+          <p class="card__title">Business</p>
+          <div class="card__price-circle">
+            <span class="card__dollar">$</span>
+            <span class="card__price">25</span>
+            <br />
+            <span>per month</span>
+          </div>
+          <div class="card__content">
+            <p class="text-enabled"><i class="fas fa-check"></i>1 user</p>
+            <p class="text-enabled"><i class="fas fa-check"></i>10GB storage</p>
+            <p class="text-enabled">
+              <i class="fas fa-check"></i>Email priority support
+            </p>
+            <p class="text-enabled"><i class="fas fa-check"></i>Free update</p>
+            <p class="text-enabled"><i class="fas fa-check"></i>24/7 support</p>
+            <button class="card__button">Sign Up</button>
+          </div>
         </div>
- 
-        <div class='card card--center'  >
-         <div class="ribbon"><span>POPULAR</span>
-             </div>
-         <p class='card__title card__title--center'>Professional</p>
-         <div class='card__price-circle'>
-             <span class='card__dollar'>$</span>
-             <span class='card__price'>10</span>
-             <br>
-             <span>per month</span>
-             
-         </div>
-         <div class='card__content'>
-             <p class='text-enabled'><i class="fas fa-check"></i>1 user</p> 
-             <p class='text-enabled'><i class="fas fa-check"></i>10GB storage</p>
-             <p class='text-enabled'><i class="fas fa-check"></i>Email priority support</p>
-             <p class='text-enabled'><i class="fas fa-check"></i>Free update</p>
-             <p class='text-enabled'><i class="fas fa-check"></i>24/7 support</p>
-             <button class='card__button'>Sign Up</button>
-         </div>
-     </div>
-     <div class='card'>
-         <p class='card__title'>Business</p>
-         <div class='card__price-circle'>
-             <span class='card__dollar'>$</span>
-             <span class='card__price'>25</span>
-             <br>
-             <span>per month</span>
-             
-         </div>
-         <div class='card__content'>
-             <p class='text-enabled'><i class="fas fa-check"></i>1 user</p> 
-             <p class='text-enabled'><i class="fas fa-check"></i>10GB storage</p>
-             <p class='text-enabled'><i class="fas fa-check"></i>Email priority support</p>
-             <p class='text-enabled'><i class="fas fa-check"></i>Free update<//p>
-             <p class='text-enabled'><i class="fas fa-check"></i>24/7 support</p>
-             <button class='card__button'>Sign Up</button>
-         </div>
-     </div>
-        
- 
- </div>
- </div>
-  <!--Contact us -->
-
-<div class='contact'>
- <h1 class='contact__title'>Contact Us</h1>
- <div class='contact__info'>
- <p class='contact__info_p'>We’d love to hear from you. Lorem ipsum dolor sit amet, 
-     consectetur adipiscing elit. Nullam ut erat magna. 
-     Aliquam porta sem a lacus imperdiet posuere. Integer 
-     semper eget ligula id eleifend.
-     </p>
-
-     <p class='contact-info_i'><i class="far fa-envelope"></i>hello@website.com</pcontatc-info-p'> 
-     <p class='contact-info_i'><i class="fas fa-phone-square"></i>0800 123 456</p>
-
-
+      </div>
     </div>
+    <!--Contact us -->
 
-    <div class='contact__form'>
-          <label class='form__name' for='name'>Name:</label>
-          <input id='name'  type='text' placeholder="NAME:" class="form__input">
+    <div class="contact">
+      <h1 class="contact__title">Contact Us</h1>
+      <div class="contact__info">
+        <p class="contact__info_p">
+          We’d love to hear from you. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nullam ut erat magna. Aliquam porta sem a lacus
+          imperdiet posuere. Integer semper eget ligula id eleifend.
+        </p>
 
-          <label class='form__email'  for='email'>Email:</label>
-          <input id='email'  type='text' placeholder="EMAIL:" class="form__input">
+        <p class="contact-info_i">
+          <i class="far fa-envelope"></i>hello@website.com
+        </p>
+        <p class="contact-info_i">
+          <i class="fas fa-phone-square"></i>0800 123 456
+        </p>
+      </div>
 
+      <div class="contact__form">
+        <label class="form__name" for="name">Name:</label>
+        <input id="name" type="text" placeholder="NAME:" class="form__input" />
 
-          <label class='form__message'  for='message'>Message:</label>
-          <textarea id="message" class="form__text-area" 
-          rows="6" placeholder="MESSAGE:"></textarea>
-          
+        <label class="form__email" for="email">Email:</label>
+        <input
+          id="email"
+          type="text"
+          placeholder="EMAIL:"
+          class="form__input"
+        />
 
-          <button class='form__button'>Send Message</button> 
+        <label class="form__message" for="message">Message:</label>
+        <textarea
+          id="message"
+          class="form__text-area"
+          rows="6"
+          placeholder="MESSAGE:"
+        ></textarea>
+
+        <button class="form__button">Send Message</button>
+      </div>
     </div>
-  </div>
   </body>
 </html>
