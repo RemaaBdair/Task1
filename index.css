@@ -1,116 +1,117 @@
+/***********Contact us******/
+body {
+  background-image: url(bg.png);
+  font-family: "Lato", sans-serif;
+}
 
+.contact {
+  width: 100%;
+  color: #fff;
+  background-color: #56bc94;
+  background-image: url(bg.png);
+  align-items: center;
+  border: 1px solid blue;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+  font-style: normal;
+}
+.contact__title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 32px;
+}
+.contact__info {
+  text-align: center;
 
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1;
+  position: relative;
+  flex-direction: column;
+  padding: 0 10px;
+}
 
-
-  /***********Contact us******/
-  body{
-
-    background-image: url(bg.png);
-      font-family: 'Lato',sans-serif;
-      
-      
-  }
-
-  .contact-container{
-    width: 100%;
-    color: #fff;
-    background-color: #56bc94;
-    background-image: url(bg.png);
-    align-items: center;
-    border: 1px solid blue;
-    text-align: center;
-    display: block;
-    margin:0 auto;
-    padding: 50px;
-    font-style: normal;
-
-    
-  }
-  .contact-title{
-    text-align: center;
-    margin-top: 20px;
-    
-  }
-  .contact-info{
-    text-align: center;
-    
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex: 1;
-    position: relative;
-    flex-direction: column;
-    padding:0 10px;
-  }
-
-  .contatc-info-p{
-    width:600px;
+.contact__info_p {
+  width: 600px;
   display: inline-block;
   color: white;
   margin: 10px;
-  }
-  
-  .contact-info-i{
-    
-    margin: 10px;
-    color: #317b5e;
-  }
-
-  
-  .fa-phone-square, .fa-envelope{
-    color: #317b5e;
-    font-size: 16px;
-    font-family: 'FontAwesome';
-    font-style: inherit;
-    padding: 5px;
-  }
-  .fa-phone-square{
-    content: "\f098";
-  }
-  .fa-envelope{
-    content: "\f0e0";
-  
-  }
-
-  .contact-form{
- 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width:100%;
-    margin:  auto;
-    
-  }
-  .contact-form >label{
-   
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    
-  
 }
-  
-.contact-form >input, .contact-form>textarea{
-    font-size: 16px;
-    margin: 10px 0px;
-    height: auto;
-    padding: 15px 15px;
-    display: block;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-    border-radius: 4px;
-    width: 540px;
+
+.contact__info-i {
+  margin: 10px;
+  color: #317b5e;
+}
+
+.fa-phone-square,
+.fa-envelope {
+  color: #317b5e;
+  font-size: 1rem;
+  font-family: "FontAwesome";
+  font-style: inherit;
+  padding: 5px;
+}
+.fa-phone-square {
+  content: "\f098";
+}
+.fa-envelope {
+  content: "\f0e0";
+}
+
+.contact__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.form__name,
+.form__email,
+.form__message {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.form__input,
+.form__text-area {
+  font-size: 16px;
+  margin: 10px 0px;
+  height: auto;
+  padding: 15px 15px;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 540px;
+}
+
+.form__button {
+  background-color: #317b5e;
+  margin-top: 15px;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #317b5e;
+}
+
+@media screen and (max-width: 500px) {
+  .contact__info_p,
+  .contact__info-i,
+  .form__input,
+  .form__text-area {
+    width: 19rem;
   }
 
-  .send-message{
-    background-color: #317b5e;
-    margin-top: 15px;
-    padding: 10px 15px;
-    font-size: 18px;
-    color: white;
-    border-radius: 4px;
-    border: 1px solid  #317b5e;;
+  .contact {
+    padding: 0em;
   }
+}
